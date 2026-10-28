@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Lab2.ConsoleApp/Lab2.ConsoleApp.csproj" />
   <Project Path="Lab2.DataAccess/Lab2.DataAccess.csproj" />
+  <Project Path="Lab3.WebAPI/Lab3.WebAPI.csproj" Id="6db7d0f4-55b3-4c5b-8922-74302283d661" />
 </Solution>

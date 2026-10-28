@@ -15,12 +15,11 @@ namespace Lab2.DataAccess
         [Range(1, 100)]
         public int Quantity { get; set; }
 
-        [Range(typeof(decimal), "0.01", "100000")]
-        [Column(TypeName = "decimal(18,2)")]
+        [Range(0.01, 100000.0)]
         public decimal UnitPrice { get; set; }
 
         public int OrderId { get; set; }
 
-        public Order Order { get; set; } = null!;
+        public Order? Order { get; set; }
     }
 }

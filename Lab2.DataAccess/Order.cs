@@ -24,7 +24,7 @@ namespace Lab2.DataAccess
 
         public int CustomerId { get; set; }
 
-        public Customer Customer { get; set; } = null!;
+        public Customer? Customer { get; set; }
 
         public List<OrderItem> OrderItems { get; set; } = new(); 
     }
